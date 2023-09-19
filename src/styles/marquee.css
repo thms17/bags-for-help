@@ -1,0 +1,17 @@
+@keyframes scroll {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(calc(-100% - 1rem));
+    }
+}
+
+.scroll {
+    animation: scroll 20s linear infinite;
+}
+
+.home-hero_right-side {
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0%, black 2%, black 98%, transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent 0%, black 10%, black 90%, transparent 100%);
+}
