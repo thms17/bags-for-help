@@ -1,3 +1,7 @@
 .section_home-hero, .home-hero_main-div {
     height: calc(100dvh - 5.06494140625rem)
 }
+.faq_accordion-panel {
+    display: none;
+    height: 0;
+}
